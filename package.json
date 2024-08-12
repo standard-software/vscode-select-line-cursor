@@ -26,6 +26,17 @@
     "line",
     "cursor"
   ],
+  "scripts": {
+    "lint": "npx eslint",
+    "lintfix": "npx eslint --fix",
+    "pack": "npx vsce package && code --install-extension vscode-select-line-cursor-0.0.1.vsix",
+    "": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+  },
   "activationEvents": [],
   "main": "./src/extension.js",
   "contributes": {
@@ -35,13 +46,5 @@
         "title": "Hello World"
       }
     ]
-  },
-  "scripts": {
-    "lint": "eslint --fix ./src",
-    "pack": "npx vsce package && code --install-extension vscode-select-line-cursor-0.0.1.vsix",
-    "": ""
-  },
-  "devDependencies": {
-    "eslint": "^8.57.0"
   }
 }
