@@ -1,34 +1,47 @@
 {
   "name": "vscode-select-line-cursor",
-  "displayName": "vscode-select-line-cursor",
+  "displayName": "Select Line Cursor",
   "description": "VSCode extension for line selection.",
   "version": "0.0.1",
+  "icon": "vscode-select-line-cursor_icon.png",
+  "publisher": "SatoshiYamamoto",
+  "author": {
+    "name": "Satoshi Yamamoto",
+    "email": "standard.software.net@gmail.com",
+    "url": "https://www.facebook.com/stndardsoftware"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standard-software/vscode-select-line-cursor"
+  },
   "engines": {
     "vscode": "^1.92.0"
   },
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "select",
+    "line",
+    "cursor"
+  ],
   "activationEvents": [],
-  "main": "./extension.js",
+  "main": "./src/extension.js",
   "contributes": {
-    "commands": [{
-      "command": "vscode-select-line-cursor.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "vscode-select-line-cursor.helloWorld",
+        "title": "Hello World"
+      }
+    ]
   },
   "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "vscode-test"
+    "lint": "eslint --fix ./src",
+    "pack": "npx vsce package && code --install-extension vscode-select-line-cursor-0.0.1.vsix",
+    "": ""
   },
   "devDependencies": {
-    "@types/vscode": "^1.92.0",
-    "@types/mocha": "^10.0.7",
-    "@types/node": "20.x",
-    "eslint": "^8.57.0",
-    "typescript": "^5.4.5",
-    "@vscode/test-cli": "^0.0.9",
-    "@vscode/test-electron": "^2.4.0"
+    "eslint": "^8.57.0"
   }
 }
