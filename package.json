@@ -35,15 +35,26 @@
   "devDependencies": {
     "eslint": "^8.57.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "activationEvents": [],
   "main": "./src/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-select-line-cursor.helloWorld",
-        "title": "Hello World"
+        "command": "vscode-select-line-cursor.SelectFunction",
+        "title": "Select Line Cursor : Select Function ..."
+      },
+      {
+        "command": "vscode-select-line-cursor.SelectAllLines",
+        "title": "Select Line Cursor : All Lines"
+      },
+      {
+        "command": "vscode-select-line-cursor.SelectTextLines",
+        "title": "Select Line Cursor : Text Lines"
+      },
+      {
+        "command": "vscode-select-line-cursor.SelectMinIndentLines",
+        "title": "Select Line Cursor : Min Indent Lines"
       }
     ]
   }
