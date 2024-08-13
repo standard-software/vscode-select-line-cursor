@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "vscode-select-line-cursor" extension will be documented in this file.
+## [1.0.0] - 2024/08/13 Tue
+- First Release
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [Pre-release version]
+This extension was created by taking over from Begin Of Line.
 
-## [Unreleased]
+Begin Of Line - Visual Studio Marketplace  
+https://marketplace.visualstudio.com/items?itemName=SatoshiYamamoto.vscode-begin-of-line
 
-- Initial release
