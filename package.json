@@ -2,7 +2,7 @@
   "name": "vscode-select-line-cursor",
   "displayName": "Select Line Cursor",
   "description": "VSCode extension for line selection.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "vscode-select-line-cursor_icon.png",
   "publisher": "SatoshiYamamoto",
   "author": {
@@ -29,7 +29,7 @@
   "scripts": {
     "lint": "npx eslint",
     "lintfix": "npx eslint --fix",
-    "pack": "npx vsce package && code --install-extension vscode-select-line-cursor-1.0.0.vsix",
+    "pack": "npx vsce package && code --install-extension vscode-select-line-cursor-1.1.0.vsix",
     "": ""
   },
   "devDependencies": {
