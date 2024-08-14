@@ -31,6 +31,12 @@ Or Select Function
   - Min Indent Lines
 ```
 
+### Default Key
+
+| Command             | Default Key Windows     | Default Key Mac         |
+|-                    |-                        | -                       |
+| Select Function     | Alt + Ctrl + L          | Opt + Ctrl + L          |
+
 ### Sample
 
 ```
